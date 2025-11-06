@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshay Kumbhar - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <!-- Profile Photo -->
+        <img src="ak2.jpeg" alt="Akshay Kumbhar" class="profile-photo">
+
+        <h1 class="fade-in">Akshay Kumbhar</h1>
+        <p class="tagline typing-effect">Java Full Stack | Python | PHP | Developer</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="fade-in">
+        <h2>About Me</h2>
+        <p>
+            Hi! I’m <strong>Akshay Kumbhar</strong>, a passionate web Dev enthusiast and coder with experience in multiple programming languages and web development. 
+            I love building creative, impactful, and user-friendly digital solutions.
+        </p>
+        <!-- Resume Button -->
+        <a href="akshayres.pdf" target="_blank" class="resume-btn">📄 View My Resume</a>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="fade-in">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill">Java</div>
+            <div class="skill">PHP</div>
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">Python</div>
+            <div class="skill">VB.NET</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="fade-in">
+        <h2>My Projects</h2>
+        <ul>
+            <li>💰 Money Detection System</li>
+            <li>📝 Online Examination System</li>
+            <li>🌐 Personal Website</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="fade-in">
+        <h2>Contact Me</h2>
+        <p>📧 Email: <a href="mailto:kumbharakshay471@gmail.com">kumbharakshay471@gmail.com</a></p>
+        <p>📱 Mobile: <a href="tel:+919309133097">+91 93091 33097</a></p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/akshay-kumbhar-b9772333b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+            <a href="https://www.instagram.com/akshay_kumbhar_24/profilecard/?igsh=ZW95emI0cTBsZWd3" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com/share/176FsuUhKj/" target="_blank">Facebook</a>
+            <a href="https://github.com" target="_blank">GitHub</a>
+            <a href="https://auth.geeksforgeeks.org/user/" target="_blank">GeeksforGeeks</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>THANK YOU</p>
+    </footer>
+
+    <!-- Smooth Scroll Script -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
