@@ -1,100 +1,1654 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-QCDJ20GVPQ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-QCDJ20GVPQ');
-</script>
+    <!-- =========================
+         BASIC META
+    ========================== -->
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akshay Kumbhar - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
-</head>
-<body>
-    <!-- Header Section -->
-    <header>
-        <!-- Profile Photo -->
-        <img src="ak2.jpeg" alt="Akshay Kumbhar" class="profile-photo">
 
-        <h1 class="fade-in">Akshay Kumbhar</h1>
-        <p class="tagline typing-effect">Java Full Stack | Python | PHP | Developer</p>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Akshay Kumbhar - Java Full Stack Developer, Python Developer, Machine Learning and Data Science enthusiast.">
+
+    <meta name="author"
+          content="Akshay Kumbhar">
+
+    <meta name="keywords"
+          content="Akshay Kumbhar, Java Developer, Full Stack Developer, Python Developer, Spring Boot, Machine Learning, Data Science">
+
+    <title>Akshay Kumbhar | Java Full Stack Developer</title>
+
+
+    <!-- =========================
+         GOOGLE ANALYTICS
+    ========================== -->
+
+    <script async
+        src="https://www.googletagmanager.com/gtag/js?id=G-QCDJ20GVPQ">
+    </script>
+
+    <script>
+
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-QCDJ20GVPQ');
+
+    </script>
+
+
+    <!-- =========================
+         GOOGLE FONT
+    ========================== -->
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+
+    <!-- =========================
+         ICONS
+    ========================== -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
+    <!-- =========================
+         CSS
+    ========================== -->
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================
+         LOADING SCREEN
+    ========================== -->
+
+    <div id="loader">
+
+        <div class="loader-content">
+
+            <div class="loader-circle"></div>
+
+            <h2>Akshay Kumbhar</h2>
+
+            <p>Loading Portfolio...</p>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         FLOATING BACKGROUND
+    ========================== -->
+
+    <div class="background">
+
+        <span class="circle circle-1"></span>
+        <span class="circle circle-2"></span>
+        <span class="circle circle-3"></span>
+
+    </div>
+
+
+    <!-- =========================
+         NAVBAR
+    ========================== -->
+
+    <nav class="navbar" id="navbar">
+
+        <div class="nav-container">
+
+            <a href="#home" class="logo">
+                AK<span>.</span>
+            </a>
+
+
+            <div class="nav-links" id="navLinks">
+
+                <a href="#home" class="nav-link active">
+                    Home
+                </a>
+
+                <a href="#about" class="nav-link">
+                    About
+                </a>
+
+                <a href="#skills" class="nav-link">
+                    Skills
+                </a>
+
+                <a href="#projects" class="nav-link">
+                    Projects
+                </a>
+
+                <a href="#experience" class="nav-link">
+                    Experience
+                </a>
+
+                <a href="#education" class="nav-link">
+                    Education
+                </a>
+
+                <a href="#contact" class="nav-link">
+                    Contact
+                </a>
+
+            </div>
+
+
+            <button class="menu-btn" id="menuBtn">
+
+                <i class="fas fa-bars"></i>
+
+            </button>
+
+        </div>
+
+    </nav>
+
+
+    <!-- =========================
+         HERO SECTION
+    ========================== -->
+
+    <header id="home" class="hero section">
+
+        <div class="hero-container">
+
+
+            <!-- HERO TEXT -->
+
+            <div class="hero-content reveal-left">
+
+                <p class="hero-small">
+                    <span></span>
+                    Hello, I'm
+                </p>
+
+
+                <h1>
+                    Akshay
+                    <span>Kumbhar</span>
+                </h1>
+
+
+                <h2>
+                    <span id="typingText"></span>
+                    <span class="cursor">|</span>
+                </h2>
+
+
+                <p class="hero-description">
+
+                    Final Year Computer Engineering student passionate
+                    about building software applications, web solutions,
+                    machine learning systems and data-driven applications.
+
+                </p>
+
+
+                <!-- HERO BUTTONS -->
+
+                <div class="hero-buttons">
+
+                    <a
+                        href="https://drive.google.com/file/d/1-OrSx35x5CONk_Ml3VIoTlVImEZGBOM8/view?usp=drivesdk"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-primary">
+
+                        <i class="fa-solid fa-file"></i>
+
+                        View Resume
+
+                    </a>
+
+
+                    <a
+                        href="#projects"
+                        class="btn btn-outline">
+
+                        <i class="fa-solid fa-code"></i>
+
+                        View Projects
+
+                    </a>
+
+                </div>
+
+
+                <!-- SOCIAL ICONS -->
+
+                <div class="hero-social">
+
+                    <a
+                        href="https://github.com/akshay-java-dev"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="GitHub">
+
+                        <i class="fab fa-github"></i>
+
+                    </a>
+
+
+                    <a
+                        href="https://www.linkedin.com/in/akshay-kumbhar-b9772333b/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="LinkedIn">
+
+                        <i class="fab fa-linkedin-in"></i>
+
+                    </a>
+
+
+                    <a
+                        href="https://www.instagram.com/akshay_kumbhar_24/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Instagram">
+
+                        <i class="fab fa-instagram"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- HERO IMAGE -->
+
+            <div class="hero-image-wrapper reveal-right">
+
+                <div class="image-glow"></div>
+
+                <div class="hero-image-card">
+
+                    <img
+                        src="ak2.jpeg"
+                        alt="Akshay Kumbhar">
+
+                </div>
+
+
+                <!-- Floating Cards -->
+
+                <div class="floating-card card-java">
+
+                    <i class="fa-brands fa-java"></i>
+
+                    <span>Java</span>
+
+                </div>
+
+
+                <div class="floating-card card-python">
+
+                    <i class="fa-brands fa-python"></i>
+
+                    <span>Python</span>
+
+                </div>
+
+
+                <div class="floating-card card-ml">
+
+                    <i class="fa-solid fa-brain"></i>
+
+                    <span>ML</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- SCROLL -->
+
+        <a href="#about" class="scroll-down">
+
+            <span>Scroll Down</span>
+
+            <i class="fa-solid fa-arrow-down"></i>
+
+        </a>
+
     </header>
 
-    <!-- About Section -->
-    <section id="about" class="fade-in">
-        <h2>About Me</h2>
-        <p>
-            Hi! I’m <strong>Akshay Kumbhar</strong>, a passionate web Dev enthusiast and coder with experience in multiple programming languages and web development. 
-            I love building creative, impactful, and user-friendly digital solutions.
-        </p>
-        <!-- Resume Button -->
-        <a href="akshayres.pdf" target="_blank" class="resume-btn">📄 View My Resume</a>
-    </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="fade-in">
-        <h2>My Skills</h2>
-        <div class="skills-container">
-            <div class="skill">Java</div>
-            <div class="skill">PHP</div>
-            <div class="skill">HTML</div>
-            <div class="skill">CSS</div>
-            <div class="skill">Python</div>
-            <div class="skill">VB.NET</div>
+    <!-- =========================
+         ABOUT
+    ========================== -->
+
+    <section id="about" class="section">
+
+        <div class="section-heading reveal">
+
+            <p class="section-label">
+                GET TO KNOW ME
+            </p>
+
+            <h2>
+                About <span>Me</span>
+            </h2>
+
         </div>
-    </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="fade-in">
-        <h2>My Projects</h2>
-        <ul>
-            <li>💰 Money Detection System</li>
-            <li>📝 Online Examination System</li>
-            <li>🌐 Personal Website</li>
-        </ul>
-    </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="fade-in">
-        <h2>Contact Me</h2>
-        <p>📧 Email: <a href="mailto:kumbharakshay471@gmail.com">kumbharakshay471@gmail.com</a></p>
-        <p>📱 Mobile: <a href="tel:+919309133097">+91 93091 33097</a></p>
-        <div class="social-links">
-            <a href="https://www.linkedin.com/in/akshay-kumbhar-b9772333b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
-            <a href="https://www.instagram.com/akshay_kumbhar_24/profilecard/?igsh=ZW95emI0cTBsZWd3" target="_blank">Instagram</a>
-            <a href="https://www.facebook.com/share/176FsuUhKj/" target="_blank">Facebook</a>
-            <a href="https://github.com" target="_blank">GitHub</a>
-            <a href="https://auth.geeksforgeeks.org/user/" target="_blank">GeeksforGeeks</a>
+        <div class="about-container">
+
+
+            <div class="about-image reveal-left">
+
+                <div class="about-image-box">
+
+                    <img
+                        src="ak2.jpeg"
+                        alt="Akshay Kumbhar">
+
+                </div>
+
+            </div>
+
+
+            <div class="about-content reveal-right">
+
+                <h3>
+                    Building Ideas Into
+                    <span>Digital Solutions</span>
+                </h3>
+
+
+                <p>
+
+                    Hi! I'm <strong>Akshay Kumbhar</strong>, a final-year
+                    Computer Engineering student and aspiring
+                    Java Full Stack Developer.
+
+                </p>
+
+
+                <p>
+
+                    I have a strong interest in Java development,
+                    backend development, web development, Python,
+                    Machine Learning and Data Science.
+
+                </p>
+
+
+                <p>
+
+                    I enjoy learning new technologies and building
+                    practical applications that solve real-world
+                    problems. I am currently improving my skills in
+                    Java, Spring Boot, REST APIs, SQL, Python,
+                    Machine Learning and Data Science.
+
+                </p>
+
+
+                <div class="about-stats">
+
+                    <div class="stat">
+
+                        <h4>Java</h4>
+
+                        <p>Development</p>
+
+                    </div>
+
+
+                    <div class="stat">
+
+                        <h4>Python</h4>
+
+                        <p>AI & Data</p>
+
+                    </div>
+
+
+                    <div class="stat">
+
+                        <h4>Full Stack</h4>
+
+                        <p>Development</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
+
     </section>
 
-    <!-- Footer -->
+
+    <!-- =========================
+         SKILLS
+    ========================== -->
+
+    <section id="skills" class="section skills-section">
+
+        <div class="section-heading reveal">
+
+            <p class="section-label">
+                MY TECHNOLOGIES
+            </p>
+
+            <h2>
+                Technical <span>Skills</span>
+            </h2>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+
+            <div class="skill-card reveal">
+
+                <div class="skill-icon java">
+                    <i class="fa-brands fa-java"></i>
+                </div>
+
+                <h3>Java</h3>
+
+                <p>Core Java & OOP</p>
+
+            </div>
+
+
+            <div class="skill-card reveal">
+
+                <div class="skill-icon python">
+                    <i class="fa-brands fa-python"></i>
+                </div>
+
+                <h3>Python</h3>
+
+                <p>Programming & AI</p>
+
+            </div>
+
+
+            <div class="skill-card reveal">
+
+                <div class="skill-icon">
+                    <i class="fa-solid fa-leaf"></i>
+                </div>
+
+                <h3>Spring Boot</h3>
+
+                <p>Backend Development</p>
+
+            </div>
+
+
+            <div class="skill-card reveal">
+
+                <div class="skill-icon">
+                    <i class="fa-solid fa-database"></i>
+                </div>
+
+                <h3>MySQL</h3>
+
+                <p>Database</p>
+
+            </div>
+
+
+            <div class="skill-card reveal">
+
+                <div class="skill-icon">
+                    <i class="fa-solid fa-database"></i>
+                </div>
+
+                <h3>MongoDB</h3>
+
+                <p>NoSQL Database</p>
+
+            </div>
+
+
+            <div class="skill-card reveal">
+
+                <div class="skill-icon">
+                    <i class="fa-solid fa-brain"></i>
+                </div>
+
+                <h3>Machine Learning</h3>
+
+                <p>AI & Prediction</p>
+
+            </div>
+
+
+            <div class="skill-card reveal">
+
+                <div class="skill-icon">
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+
+                <h3>Data Science</h3>
+
+                <p>Data Analysis</p>
+
+            </div>
+
+
+            <div class="skill-card reveal">
+
+                <div class="skill-icon">
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+
+                <h3>Web Development</h3>
+
+                <p>HTML, CSS, JavaScript</p>
+
+            </div>
+
+
+            <div class="skill-card reveal">
+
+                <div class="skill-icon">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+
+                <h3>PHP</h3>
+
+                <p>Web Development</p>
+
+            </div>
+
+
+            <div class="skill-card reveal">
+
+                <div class="skill-icon">
+                    <i class="fa-solid fa-code-branch"></i>
+                </div>
+
+                <h3>Git & GitHub</h3>
+
+                <p>Version Control</p>
+
+            </div>
+
+
+            <div class="skill-card reveal">
+
+                <div class="skill-icon">
+                    <i class="fa-solid fa-network-wired"></i>
+                </div>
+
+                <h3>REST API</h3>
+
+                <p>Backend Services</p>
+
+            </div>
+
+
+            <div class="skill-card reveal">
+
+                <div class="skill-icon">
+                    <i class="fa-solid fa-puzzle-piece"></i>
+                </div>
+
+                <h3>DSA</h3>
+
+                <p>Problem Solving</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         PROJECTS
+    ========================== -->
+
+    <section id="projects" class="section">
+
+        <div class="section-heading reveal">
+
+            <p class="section-label">
+                MY WORK
+            </p>
+
+            <h2>
+                Featured <span>Projects</span>
+            </h2>
+
+        </div>
+
+
+        <div class="projects-grid">
+
+
+            <!-- PROJECT 1 -->
+
+            <article class="project-card reveal">
+
+                <div class="project-number">
+                    01
+                </div>
+
+                <div class="project-icon">
+                    ♻️
+                </div>
+
+                <h3>
+                    EcoVision AI
+                </h3>
+
+                <p>
+
+                    AI-powered waste classification and disposal
+                    guidance system using computer vision.
+                    The system identifies different categories
+                    of waste and provides appropriate disposal
+                    guidance.
+
+                </p>
+
+
+                <div class="project-tags">
+
+                    <span>Python</span>
+                    <span>YOLO</span>
+                    <span>Computer Vision</span>
+                    <span>Streamlit</span>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 2 -->
+
+            <article class="project-card reveal">
+
+                <div class="project-number">
+                    02
+                </div>
+
+                <div class="project-icon">
+                    💰
+                </div>
+
+                <h3>
+                    Money Detection System
+                </h3>
+
+                <p>
+
+                    Computer vision based application designed
+                    to identify currency from images and provide
+                    useful information about the detected currency.
+
+                </p>
+
+
+                <div class="project-tags">
+
+                    <span>Python</span>
+                    <span>Computer Vision</span>
+                    <span>Machine Learning</span>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 3 -->
+
+            <article class="project-card reveal">
+
+                <div class="project-number">
+                    03
+                </div>
+
+                <div class="project-icon">
+                    📝
+                </div>
+
+                <h3>
+                    Online Examination System
+                </h3>
+
+                <p>
+
+                    Web-based examination system designed to conduct
+                    online examinations and manage examination-related
+                    activities.
+
+                </p>
+
+
+                <div class="project-tags">
+
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>PHP</span>
+                    <span>MySQL</span>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 4 -->
+
+            <article class="project-card reveal">
+
+                <div class="project-number">
+                    04
+                </div>
+
+                <div class="project-icon">
+                    🌐
+                </div>
+
+                <h3>
+                    Personal Portfolio
+                </h3>
+
+                <p>
+
+                    Responsive personal portfolio website created
+                    to showcase my skills, projects, resume and
+                    professional profiles.
+
+                </p>
+
+
+                <div class="project-tags">
+
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         EXPERIENCE
+    ========================== -->
+
+    <section id="experience" class="section">
+
+        <div class="section-heading reveal">
+
+            <p class="section-label">
+                MY EXPERIENCE
+            </p>
+
+            <h2>
+                Internship & <span>Training</span>
+            </h2>
+
+        </div>
+
+
+        <div class="timeline">
+
+
+            <!-- EXPERIENCE 1 -->
+
+            <div class="timeline-item reveal-left">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-date">
+                        Internship
+                    </span>
+
+                    <h3>
+                        Google Cloud Data Analytics
+                    </h3>
+
+                    <h4>
+                        EduSkills
+                    </h4>
+
+                    <p>
+
+                        Completed a Google Cloud Data Analytics
+                        internship and gained exposure to cloud-based
+                        data analytics and Google Cloud technologies.
+
+                    </p>
+
+
+                    <div class="project-tags">
+
+                        <span>Google Cloud</span>
+                        <span>BigQuery</span>
+                        <span>Dataflow</span>
+                        <span>Dataproc</span>
+                        <span>Dataplex</span>
+                        <span>Looker</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- EXPERIENCE 2 -->
+
+            <div class="timeline-item reveal-right">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-date">
+                        Learning & Development
+                    </span>
+
+                    <h3>
+                        Machine Learning & Data Science
+                    </h3>
+
+                    <h4>
+                        Python Based Learning
+                    </h4>
+
+                    <p>
+
+                        Developing practical knowledge in Machine
+                        Learning, Data Science, Data Analysis and
+                        Computer Vision using Python.
+
+                    </p>
+
+
+                    <div class="project-tags">
+
+                        <span>Python</span>
+                        <span>Machine Learning</span>
+                        <span>Data Science</span>
+                        <span>Computer Vision</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         EDUCATION
+    ========================== -->
+
+    <section id="education" class="section">
+
+        <div class="section-heading reveal">
+
+            <p class="section-label">
+                MY ACADEMIC JOURNEY
+            </p>
+
+            <h2>
+                <span>Education</span>
+            </h2>
+
+        </div>
+
+
+        <div class="education-grid">
+
+
+            <div class="education-card reveal">
+
+                <div class="education-icon">
+                    🎓
+                </div>
+
+                <div>
+
+                    <span>
+                        Bachelor's Degree
+                    </span>
+
+                    <h3>
+                        Bachelor of Engineering
+                    </h3>
+
+                    <p>
+                        Computer Engineering
+                    </p>
+
+                    <small>
+                        Final Year
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <div class="education-card reveal">
+
+                <div class="education-icon">
+                    💻
+                </div>
+
+                <div>
+
+                    <span>
+                        Diploma
+                    </span>
+
+                    <h3>
+                        Diploma in Computer Engineering
+                    </h3>
+
+                    <p>
+                        Computer Engineering
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         WHAT I DO
+    ========================== -->
+
+    <section id="services" class="section">
+
+        <div class="section-heading reveal">
+
+            <p class="section-label">
+                WHAT I CAN DO
+            </p>
+
+            <h2>
+                My <span>Focus Areas</span>
+            </h2>
+
+        </div>
+
+
+        <div class="services-grid">
+
+
+            <div class="service-card reveal">
+
+                <i class="fa-brands fa-java"></i>
+
+                <h3>
+                    Java Development
+                </h3>
+
+                <p>
+
+                    Core Java, OOP, problem solving and
+                    backend application development.
+
+                </p>
+
+            </div>
+
+
+            <div class="service-card reveal">
+
+                <i class="fa-solid fa-server"></i>
+
+                <h3>
+                    Backend Development
+                </h3>
+
+                <p>
+
+                    Spring Boot, REST APIs, databases and
+                    backend application development.
+
+                </p>
+
+            </div>
+
+
+            <div class="service-card reveal">
+
+                <i class="fa-solid fa-globe"></i>
+
+                <h3>
+                    Web Development
+                </h3>
+
+                <p>
+
+                    Responsive websites and web applications
+                    using HTML, CSS, JavaScript and PHP.
+
+                </p>
+
+            </div>
+
+
+            <div class="service-card reveal">
+
+                <i class="fa-solid fa-brain"></i>
+
+                <h3>
+                    Machine Learning
+                </h3>
+
+                <p>
+
+                    Python-based machine learning,
+                    computer vision and AI applications.
+
+                </p>
+
+            </div>
+
+
+            <div class="service-card reveal">
+
+                <i class="fa-solid fa-chart-line"></i>
+
+                <h3>
+                    Data Science
+                </h3>
+
+                <p>
+
+                    Data analysis and data-driven
+                    application development.
+
+                </p>
+
+            </div>
+
+
+            <div class="service-card reveal">
+
+                <i class="fa-solid fa-cloud"></i>
+
+                <h3>
+                    Cloud & Data Analytics
+                </h3>
+
+                <p>
+
+                    Google Cloud technologies and
+                    cloud-based data analytics.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         CONTACT
+    ========================== -->
+
+    <section id="contact" class="section contact-section">
+
+        <div class="section-heading reveal">
+
+            <p class="section-label">
+                GET IN TOUCH
+            </p>
+
+            <h2>
+                Let's <span>Connect</span>
+            </h2>
+
+        </div>
+
+
+        <div class="contact-container">
+
+
+            <div class="contact-info reveal-left">
+
+                <h3>
+                    Have a project or opportunity?
+                </h3>
+
+                <p>
+
+                    I'm open to internships, entry-level
+                    opportunities and software development roles.
+
+                </p>
+
+
+                <div class="contact-item">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    <div>
+
+                        <span>Email</span>
+
+                        <a href="mailto:kumbharakshay471@gmail.com">
+                            kumbharakshay471@gmail.com
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <i class="fa-solid fa-phone"></i>
+
+                    <div>
+
+                        <span>Phone</span>
+
+                        <a href="tel:+919309133097">
+                            +91 93091 33097
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="contact-card reveal-right">
+
+                <i class="fa-solid fa-code"></i>
+
+                <h3>
+                    Let's Build Something
+                </h3>
+
+                <p>
+                    Interested in working together?
+                    Connect with me through my professional profiles.
+                </p>
+
+
+                <div class="contact-social">
+
+                    <a
+                        href="https://github.com/akshay-java-dev"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        <i class="fab fa-github"></i>
+                        GitHub
+
+                    </a>
+
+
+                    <a
+                        href="https://www.linkedin.com/in/akshay-kumbhar-b9772333b/"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        <i class="fab fa-linkedin"></i>
+                        LinkedIn
+
+                    </a>
+
+
+                    <a
+                        href="https://www.instagram.com/akshay_kumbhar_24/"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        <i class="fab fa-instagram"></i>
+                        Instagram
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
     <footer>
-        <p>THANK YOU</p>
+
+        <div class="footer-logo">
+            AK<span>.</span>
+        </div>
+
+
+        <p>
+            Designed & Developed by
+            <strong>Akshay Kumbhar</strong>
+        </p>
+
+
+        <p class="copyright">
+            © 2026 Akshay Kumbhar. All Rights Reserved.
+        </p>
+
     </footer>
 
-    <!-- Smooth Scroll Script -->
+
+    <!-- =========================
+         BACK TO TOP
+    ========================== -->
+
+    <button id="backToTop">
+
+        <i class="fa-solid fa-arrow-up"></i>
+
+    </button>
+
+
+    <!-- =========================
+         JAVASCRIPT
+    ========================== -->
+
     <script>
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
+
+
+        /* =========================
+           PAGE LOADER
+        ========================== */
+
+        window.addEventListener("load", function () {
+
+            const loader = document.getElementById("loader");
+
+            setTimeout(function () {
+
+                loader.classList.add("hide");
+
+            }, 700);
+
         });
+
+
+
+        /* =========================
+           TYPING EFFECT
+        ========================== */
+
+        const typingText =
+            document.getElementById("typingText");
+
+
+        const roles = [
+
+            "Java Full Stack Developer",
+
+            "Python Developer",
+
+            "Machine Learning Enthusiast",
+
+            "Data Science Enthusiast"
+
+        ];
+
+
+        let roleIndex = 0;
+
+        let charIndex = 0;
+
+        let deleting = false;
+
+
+        function typeEffect() {
+
+            const currentRole =
+                roles[roleIndex];
+
+
+            if (!deleting) {
+
+                typingText.textContent =
+                    currentRole.substring(
+                        0,
+                        charIndex + 1
+                    );
+
+                charIndex++;
+
+
+                if (charIndex === currentRole.length) {
+
+                    deleting = true;
+
+                    setTimeout(typeEffect, 1800);
+
+                    return;
+
+                }
+
+            }
+
+            else {
+
+                typingText.textContent =
+                    currentRole.substring(
+                        0,
+                        charIndex - 1
+                    );
+
+                charIndex--;
+
+
+                if (charIndex === 0) {
+
+                    deleting = false;
+
+                    roleIndex++;
+
+                    if (roleIndex >= roles.length) {
+
+                        roleIndex = 0;
+
+                    }
+
+                }
+
+            }
+
+
+            setTimeout(
+                typeEffect,
+                deleting ? 45 : 90
+            );
+
+        }
+
+
+        typeEffect();
+
+
+
+        /* =========================
+           MOBILE MENU
+        ========================== */
+
+        const menuBtn =
+            document.getElementById("menuBtn");
+
+        const navLinks =
+            document.getElementById("navLinks");
+
+
+        menuBtn.addEventListener("click", function () {
+
+            navLinks.classList.toggle("show");
+
+            menuBtn.classList.toggle("active");
+
+        });
+
+
+        document
+            .querySelectorAll(".nav-link")
+            .forEach(link => {
+
+                link.addEventListener("click", function () {
+
+                    navLinks.classList.remove("show");
+
+                });
+
+            });
+
+
+
+        /* =========================
+           NAVBAR SCROLL
+        ========================== */
+
+        const navbar =
+            document.getElementById("navbar");
+
+
+        window.addEventListener("scroll", function () {
+
+            if (window.scrollY > 50) {
+
+                navbar.classList.add("scrolled");
+
+            }
+
+            else {
+
+                navbar.classList.remove("scrolled");
+
+            }
+
+        });
+
+
+
+        /* =========================
+           ACTIVE NAV LINK
+        ========================== */
+
+        const sections =
+            document.querySelectorAll("section, header");
+
+        const navItems =
+            document.querySelectorAll(".nav-link");
+
+
+        window.addEventListener("scroll", function () {
+
+            let current = "";
+
+
+            sections.forEach(section => {
+
+                const sectionTop =
+                    section.offsetTop - 150;
+
+                if (window.scrollY >= sectionTop) {
+
+                    current = section.getAttribute("id");
+
+                }
+
+            });
+
+
+            navItems.forEach(link => {
+
+                link.classList.remove("active");
+
+
+                if (
+                    link.getAttribute("href") ===
+                    "#" + current
+                ) {
+
+                    link.classList.add("active");
+
+                }
+
+            });
+
+        });
+
+
+
+        /* =========================
+           SCROLL REVEAL
+        ========================== */
+
+        const revealElements =
+            document.querySelectorAll(
+                ".reveal, .reveal-left, .reveal-right"
+            );
+
+
+        const observer =
+            new IntersectionObserver(
+
+                function (entries) {
+
+                    entries.forEach(entry => {
+
+                        if (entry.isIntersecting) {
+
+                            entry.target.classList.add(
+                                "show"
+                            );
+
+                        }
+
+                    });
+
+                },
+
+                {
+                    threshold: 0.15
+                }
+
+            );
+
+
+        revealElements.forEach(element => {
+
+            observer.observe(element);
+
+        });
+
+
+
+        /* =========================
+           BACK TO TOP
+        ========================== */
+
+        const backToTop =
+            document.getElementById("backToTop");
+
+
+        window.addEventListener("scroll", function () {
+
+            if (window.scrollY > 500) {
+
+                backToTop.classList.add("show");
+
+            }
+
+            else {
+
+                backToTop.classList.remove("show");
+
+            }
+
+        });
+
+
+        backToTop.addEventListener("click", function () {
+
+            window.scrollTo({
+
+                top: 0,
+
+                behavior: "smooth"
+
+            });
+
+        });
+
+
+
+        /* =========================
+           SMOOTH SCROLL
+        ========================== */
+
+        document
+            .querySelectorAll('a[href^="#"]')
+            .forEach(anchor => {
+
+                anchor.addEventListener(
+                    "click",
+                    function (event) {
+
+                        event.preventDefault();
+
+
+                        const target =
+                            document.querySelector(
+                                this.getAttribute("href")
+                            );
+
+
+                        if (target) {
+
+                            target.scrollIntoView({
+
+                                behavior: "smooth"
+
+                            });
+
+                        }
+
+                    }
+                );
+
+            });
+
+
     </script>
+
 </body>
+
 </html>
